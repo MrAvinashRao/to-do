@@ -1,0 +1,30 @@
+{
+  "name": "mern-to-do",
+  "version": "1.0.0",
+  "description": "MERN project to build a to-do app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "temp-cowsay": "npx cowsay hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrAvinashRao/to-do.git"
+  },
+  "author": "Avinash Rao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrAvinashRao/to-do/issues"
+  },
+  "homepage": "https://github.com/MrAvinashRao/to-do#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^2.0.7"
+  }
+}
